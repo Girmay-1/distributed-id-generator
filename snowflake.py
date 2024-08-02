@@ -62,5 +62,4 @@ class Snowflake:
 # Example usage
 if __name__ == "__main__":
     snowflake = Snowflake(datacenter_id=1, worker_id=1)
-    for _ in range(10):
-        print(snowflake.generate_id())
+    
