@@ -29,3 +29,12 @@ snowflake = Snowflake(datacenter_id=1, worker_id=1)
 # Generate a unique ID
 unique_id = snowflake.generate_id()
 print(unique_id)
+
+## Running Tests
+To run the unit tests:
+
+python -m unittest discover tests
+
+## Benchmarking
+
+To run the performance benchmark:
