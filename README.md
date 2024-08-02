@@ -41,3 +41,10 @@ python -m unittest discover tests
 To run the performance benchmark:
 
 python benchmark.py
+
+
+## Command-line Interface
+
+Generate IDs:
+
+python cli.py --datacenter 1 --worker 1 --count 5
